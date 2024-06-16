@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-button {
+        @apply h-9 w-9 text-white mx-2 rounded-full my-1 hover:bg-zinc-900 bg-zinc-700
+    }
+}
+
+body {
+    background: rgb(6, 1, 19);
+}
